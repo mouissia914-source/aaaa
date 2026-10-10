@@ -1,2 +1,10 @@
+[project]
+name = "pixerrift"
+version = "0.1.0"
+dependencies = [
+    "httpx",
+    "httpagentparser"
+]
+
 [tool.vercel]
 entrypoint = "Pixerrift:handler"
